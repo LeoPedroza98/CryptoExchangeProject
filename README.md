@@ -43,7 +43,7 @@ RateService/
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/cryptocurrency-exchange-rate-service.git
+git clone https://github.com/LeoPedroza98/CryptoExchangeProject.git
 ```
 
 2. **Navegue até o diretório:**
@@ -57,29 +57,6 @@ cd cryptocurrency-exchange-rate-service
 ```bash
 docker run -d -p 6379:6379 --name redis redis
 ```
-
-4. **Configure o appsettings.json:**
-
-```json
-{
-  "ConnectionStrings": {
-    "Redis": "localhost:6379",
-    "SqlServer": "Server=localhost;Database=CryptoDB;Trusted_Connection=True;"
-  },
-  "BinanceApi": {
-    "BaseUrl": "https://api.binance.com",
-    "ApiKey": "SUA_API_KEY"
-  }
-}
-```
-
-5. **Rode o projeto:**
-
-```bash
-dotnet run --project API
-```
-
----
 
 ## 🧪 Executando os Testes
 
