@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D6C9E26-6C7E-4EFA-96FE-D88C1F36720A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateService", "RateService", "{7F758C71-9C7F-4602-B558-676A84BC16A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateService.Domain", "RateService.Domain\RateService.Domain.csproj", "{F7B2C10E-15D6-47C1-9A9A-3D0B05F1551E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateService.Application", "RateService.Application\RateService.Application.csproj", "{F757543C-9091-443F-A18A-57DC58BEC870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateService.Infrastructure", "RateService.Infrastructure\RateService.Infrastructure.csproj", "{2C2A499D-827E-406F-8BBF-FD1371DE9BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateService.API", "RateService.API\RateService.API.csproj", "{BC0060EB-F78F-40AF-934E-E2B0EE1108C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SentimentService", "SentimentService", "{4E56A0D2-0A4C-4CC6-80D3-A1B4AC539451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateService.Tests", "RateService.Tests\RateService.Tests.csproj", "{4777C8CE-6ECC-44BC-976E-7E3983295674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F758C71-9C7F-4602-B558-676A84BC16A9} = {0D6C9E26-6C7E-4EFA-96FE-D88C1F36720A}
+		{F7B2C10E-15D6-47C1-9A9A-3D0B05F1551E} = {7F758C71-9C7F-4602-B558-676A84BC16A9}
+		{F757543C-9091-443F-A18A-57DC58BEC870} = {7F758C71-9C7F-4602-B558-676A84BC16A9}
+		{2C2A499D-827E-406F-8BBF-FD1371DE9BBE} = {7F758C71-9C7F-4602-B558-676A84BC16A9}
+		{BC0060EB-F78F-40AF-934E-E2B0EE1108C3} = {7F758C71-9C7F-4602-B558-676A84BC16A9}
+		{4E56A0D2-0A4C-4CC6-80D3-A1B4AC539451} = {0D6C9E26-6C7E-4EFA-96FE-D88C1F36720A}
+		{4777C8CE-6ECC-44BC-976E-7E3983295674} = {7F758C71-9C7F-4602-B558-676A84BC16A9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B2C10E-15D6-47C1-9A9A-3D0B05F1551E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B2C10E-15D6-47C1-9A9A-3D0B05F1551E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B2C10E-15D6-47C1-9A9A-3D0B05F1551E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B2C10E-15D6-47C1-9A9A-3D0B05F1551E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F757543C-9091-443F-A18A-57DC58BEC870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F757543C-9091-443F-A18A-57DC58BEC870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F757543C-9091-443F-A18A-57DC58BEC870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F757543C-9091-443F-A18A-57DC58BEC870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2A499D-827E-406F-8BBF-FD1371DE9BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2A499D-827E-406F-8BBF-FD1371DE9BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2A499D-827E-406F-8BBF-FD1371DE9BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2A499D-827E-406F-8BBF-FD1371DE9BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0060EB-F78F-40AF-934E-E2B0EE1108C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0060EB-F78F-40AF-934E-E2B0EE1108C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0060EB-F78F-40AF-934E-E2B0EE1108C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0060EB-F78F-40AF-934E-E2B0EE1108C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4777C8CE-6ECC-44BC-976E-7E3983295674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4777C8CE-6ECC-44BC-976E-7E3983295674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4777C8CE-6ECC-44BC-976E-7E3983295674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4777C8CE-6ECC-44BC-976E-7E3983295674}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
